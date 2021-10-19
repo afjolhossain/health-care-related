@@ -1,0 +1,17 @@
+.footer-container{
+    margin-top: 70px;
+    height: 280px;
+   
+    background-color: black;
+}
+.all-info{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    color: rgb(163, 143, 143);
+}
+.copyright{
+    color: brown;
+}

@@ -1,0 +1,22 @@
+.img-1{
+    height: 400px;
+    width: 450px;
+    border: 2px solid seashell;
+    border-radius: 30px;
+}
+.about-firstside{
+    display: flex;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.about-Secondside{
+    display: flex;
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.Abvout-us{
+    background-color: bisque;
+    color:black;
+}

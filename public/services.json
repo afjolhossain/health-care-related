@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "name": "Philips Inginia 3.0Tesla Digital MRI",
+      "price": "10100 Tk",
+      "img": "https://i.ibb.co/sHnLHfv/image-1-1.jpg",
+      "details": "Disposable Sanitary Headset Covers Latex Free, All Sizes & Colors. Disposable Sanitary Headset Covers Latex Free, All Sizes & Colors. Sign Up For Email List. Multiple Payment Options"
+    },
+    {
+      "id": 2,
+      "name": "GE Light Speed 500 slice VCT (CT Scanner)",
+      "price": "9000 Tk",
+      "img": "https://i.ibb.co/qjdb9zy/img-6-1.jpg",
+      "details": "The GE LightSpeed VCT is a full-body CT scanner. VCT stands for Volume Computed Tomography. GE has designed the system to produce advanced cardiac and neuro imaging using SnapShot Pulse™."
+    },
+    {
+      "id": 3,
+      "name": "SIEMENS Lithotripsy (ESWL)",
+      "price": "15000 Tk",
+      "img": "https://i.ibb.co/KNGD7Y5/img-4-1.jpg",
+      "details": "XP series is a 2100nm holmium laser surgical system design for urologists. Extremely portable in size with the highest output power of 40 watts worldwide, has become the gold standard of urology lithotripsy."
+    },
+    {
+      "id": 4,
+      "name": "Philips 12-Channel -ECG",
+      "price": "15500 Tk",
+      "img": "https://i.ibb.co/hdhL4qV/img-1-1.jpg",
+      "details": "The DRC1210 and DRC1220GL are 12 channel relay controllers, with a maximum load per channel of 10A and 20A respectively. They are used for switching both lighting and non-lighting loads. Both controllers have an optional accessory card for control of electronic dimmable ballasts. "
+    },
+    {
+      "id": 5,
+      "name": "Histopathology",
+      "price": "10100 Tk",
+      "img": "https://i.ibb.co/YjByPXM/img-7-1.jpg",
+      "details": "Histopathology is the diagnosis and study of diseases of the tissues, and involves examining tissues and/or cells under a microscope. Histopathologists are responsible for making tissue diagnoses and helping clinicians manage a patients care."
+    },
+    {
+      "id": 6,
+      "name": "Cytology",
+      "price": "8500 Tk",
+      "img": "https://i.ibb.co/NTpP3Sh/img-8-1.jpg",
+      "details": "Cytology is the exam of a single cell type, as often found in fluid specimens. Its mainly used to diagnose or screen for cancer. Its also used to screen for fetal abnormalities, for pap smears, to diagnose infectious organisms, and in other screening and diagnostic areas."
+    }
+  ]

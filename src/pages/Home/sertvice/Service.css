@@ -1,0 +1,12 @@
+
+.img{
+    height: 300px;
+    width: 335px;
+}
+.service{
+    background-color:rgb(211, 221, 221);
+    color: black;
+    font-weight: 600;
+    border: 1px solid slategray;
+    border-radius: 20px;
+}
