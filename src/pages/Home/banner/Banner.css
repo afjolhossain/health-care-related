@@ -2,3 +2,13 @@
     width: 500px;
     height: 500px;
 }
+@media only screen and (max-width :688px) {
+    .carusal{
+        grid-template-columns: repeat(1 , 1fr);
+    }
+ }
+ @media only screen and (min-width:689px) and (max-width:991) {
+    .carusal{
+        grid-template-columns: repeat(2 , 1fr);
+    }
+ };

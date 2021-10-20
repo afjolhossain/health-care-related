@@ -9,10 +9,11 @@ import './Header.css';
 const Header = () => {
           const {user,logOut}=useAuth();
     return (
-        <div className="header-container">
+        <div >
             <>
-  <Navbar bg="dark" variant="dark" sticky="top">
-    <Container>
+          
+            <Navbar bg="dark" variant="dark" sticky="top">
+    <Container className="header-container">
     <Navbar.Brand href="#home">Insaf Diagenostic Center</Navbar.Brand>
     <Navbar.Toggle />
     <Navbar.Collapse className="justify-content-end">

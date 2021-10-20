@@ -7,7 +7,6 @@ InilializeAuthentication();
 
 const useFirebase = () => {
     const [user, setuser] = useState({});
-    const [email,setemail] = useState();
     const [isLoading, setisLoading] = useState(true);
 
     const auth = getAuth();
@@ -20,9 +19,9 @@ const useFirebase = () => {
             setuser(result.user);
             })
             .finally(()=>setisLoading(false));
-          }
-      useEffect(() =>{
-       const unsubscribed = onAuthStateChanged(auth, user =>{
+    }
+useEffect(() =>{
+ const unsubscribed = onAuthStateChanged(auth, user =>{
         if(user){
             setuser(user);
         }
@@ -32,7 +31,7 @@ const useFirebase = () => {
         setisLoading(false);
     });
     return()=>unsubscribed;
-}, []);
+}, [auth]);
 
 const logOut = () =>{
     signOut(auth)
@@ -42,6 +41,7 @@ const logOut = () =>{
 
     return{
         user,
+        isLoading,
         SignInUseGoogle,
         logOut,
     }

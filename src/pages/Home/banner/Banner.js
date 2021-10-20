@@ -3,12 +3,11 @@ import { Carousel } from 'react-bootstrap';
 import banner1 from '../../../images/banner/slide-1.jpg';
 import banner2 from '../../../images/banner/slide-2.jpg';
 import banner3 from '../../../images/banner/slide-3.jpg';
-
 import './Banner.css';
 
 const Banner = () => {
     return (
-        <Carousel>
+        <Carousel className="carusal">
   <Carousel.Item>
     <img
       className="d-block w-100 carousal-img"
